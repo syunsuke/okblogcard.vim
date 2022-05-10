@@ -1,0 +1,94 @@
+/*********************************************************** 
+ * okblogcard css
+ * original css 
+ * https://vanillaice000.blog.fc2.com/blog-entry-1074.html
+ ***********************************************************/
+
+.okblogcard {
+  max-width: 100%;
+  margin-bottom: 30px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid rgb(211,211,211);
+  box-shadow: 0 10px 6px -6px rgba(0,0,0,.1);
+  background: white;
+  transition: .2s ease-in-out;
+}
+
+.okblogcard > a {
+  color: rgb(51,51,51);
+}
+
+.okblogcard-content {
+  margin-bottom: 5px;
+  overflow: hidden;
+}
+
+.okblogcard-image {
+  display: inline-block;
+  float: left;
+  box-shadow: 5px 5px 5px -2px rgba(0,0,0,.1);
+  width: 80px;
+  height: 80px;
+  margin: 0 10px 5px 0;
+}
+
+.okblogcard-image-wrapper {
+  display: inline-block;
+  width: 80px;
+  height: 80px;
+}
+
+.okblogcard-image-wrapper img {
+  width: 80px !important;
+  height: 80px !important;
+  object-fit: cover;
+  object-position: center center;
+}
+
+.okblogcard-title {
+  margin: 0 !important;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 1.4;
+}
+
+.okblogcard blockquote {
+  position: static;
+  margin: 0;
+  padding: 0;
+  box-shadow: none;
+  border: 0;
+  background: transparent;
+}
+
+.okblogcard blockquote::before,
+.okblogcard blockquote::after {
+  content: none;
+}
+
+.okblogcard-description {
+  margin: 1em 0 !important;
+  font-size: 13px;
+  line-height: 1.5 !important;
+}
+
+.okblogcard-footer {
+  font-size: 12px;
+}
+
+.okblogcard-footer img {
+  margin-right: 5px;
+  vertical-align: middle;
+}
+
+/* カードマウスホバー */
+.okblogcard:hover {
+  box-shadow: 0 10px 10px 2px rgba(0,0,0,.1);
+}
+
+.okblogcard:hover > a {
+  color: rgb(51,51,51);
+  text-decoration: none !important;
+}
+
